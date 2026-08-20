@@ -1,0 +1,12 @@
+{
+  "name": "shell-bridge",
+  "type": "command",
+  "config": {
+    "command": "/bin/sh",
+    "args_template": [
+      "-c",
+      "{{command}}"
+    ],
+    "working_dir": "/Projects"
+  }
+}
