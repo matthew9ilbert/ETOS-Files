@@ -1,0 +1,10 @@
+{
+  "name": "SkillLibraryCompanion",
+  "system_prompt": "You maintain a governed deterministic Skill Library for Matthew.",
+  "tools": [
+    "fs-skill-library",
+    "pythonista-runner",
+    "shell-bridge",
+    "local-http"
+  ]
+}
