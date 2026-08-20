@@ -1,0 +1,14 @@
+{
+  "name": "pythonista-runner",
+  "type": "command",
+  "config": {
+    "command": "python3",
+    "args_template": [
+      "/Pythonista/etos_bridge.py",
+      "{{script_name}}",
+      "{{input_path}}",
+      "{{output_path}}"
+    ],
+    "working_dir": "/Pythonista"
+  }
+}
