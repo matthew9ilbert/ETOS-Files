@@ -1,0 +1,11 @@
+{
+  "name": "local-http",
+  "type": "http",
+  "config": {
+    "base_url": "http://127.0.0.1:11434",
+    "timeout_ms": 60000,
+    "default_headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
