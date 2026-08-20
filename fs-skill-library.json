@@ -1,0 +1,15 @@
+{
+  "name": "fs-skill-library",
+  "type": "filesystem",
+  "config": {
+    "root": "/Skills",
+    "allowed_patterns": [
+      "**/SKILL.md",
+      "**/*.yaml",
+      "**/*.yml",
+      "**/*.json",
+      "**/*.py"
+    ],
+    "mode": "read-write"
+  }
+}
